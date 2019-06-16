@@ -1,36 +1,36 @@
 
 # Table of Contents
 
-1.  [Deep understanding of Machine Learning](#orga13118c)
-    1.  [Introduction](#org3da35a2)
-        1.  [Artificial Intelligence history](#org22f7002)
-        2.  [AI human/business value](#org4927771)
-        3.  [AI ethics](#orgc5bfdbf)
-    2.  [Computer language applied to machine learning review](#orgcd01995)
-        1.  [Python (Pytorch)](#org41ae34e)
-        2.  [Scala](#org4b740d6)
-        3.  [Julia](#org799dbd6)
-        4.  [Spark](#orgc2901f9)
-    3.  [Machine learning methods](#orge3e4b6b)
-        1.  [ML pipeline](#orgf63343f)
-        2.  [ML framework](#org5ce3733)
-        3.  [Exploratory Data Analisis](#org9339f37)
-        4.  [Data visualization](#org805b625)
-    4.  [The mathematics](#org7122093)
-        1.  [Linear algebra](#org2d3435e)
-        2.  [Statistics](#orgaff5ce1)
-    5.  [Algorithms taxonomy](#org81239eb)
-        1.  [Unsupervised learning](#org96eb29e)
-        2.  [Supervised learning](#org235fb50)
-        3.  [Reinforcement learning](#org2ec89d1)
-        4.  [Evolutionary algorithms](#org42a6ea9)
-    6.  [Statistic learning theory](#org490b955)
-    7.  [Deep learning theory](#org2b5e69c)
-    8.  [Big Data in a Machine learning context](#org489c8c1)
-    9.  [Algorithms refcards.](#orge9fd9a2)
+1.  [Deep understanding of Machine Learning](#orge9207d2)
+    1.  [Introduction](#orgfd0bc9b)
+        1.  [Artificial Intelligence history](#org15aa7df)
+        2.  [AI human/business value](#org0ee8668)
+        3.  [AI ethics](#orgd02badb)
+    2.  [Computer language applied to machine learning review](#org7be90c8)
+        1.  [Python (Pytorch)](#org25a2e10)
+        2.  [Scala](#org352188f)
+        3.  [Julia](#org3245cc3)
+        4.  [Spark](#orgf4c05c1)
+    3.  [Machine learning methods](#org7e25ac8)
+        1.  [ML pipeline](#orga611ad4)
+        2.  [ML framework](#orgb95de8d)
+        3.  [Exploratory Data Analisis](#org761dda0)
+        4.  [Data visualization](#orga90fa14)
+    4.  [The mathematics](#org8e94b93)
+        1.  [Linear algebra](#org8edb06b)
+        2.  [Statistics](#orgf88d834)
+    5.  [Algorithms taxonomy](#org917e49e)
+        1.  [Unsupervised learning](#org104e6bf)
+        2.  [Supervised learning](#org0bd1336)
+        3.  [Reinforcement learning](#org0293429)
+        4.  [Evolutionary algorithms](#org807cfb3)
+    6.  [Statistic learning theory](#org60d6344)
+    7.  [Deep learning theory](#orgcc591d7)
+    8.  [Big Data in a Machine learning context](#org2470959)
+    9.  [Algorithms refcards.](#orgbdcc25d)
 
 
-<a id="orga13118c"></a>
+<a id="orge9207d2"></a>
 
 # Deep understanding of Machine Learning
 
@@ -40,36 +40,36 @@ I do not write it for a particular audience (as an above explanation) but if som
 My attendance on Coursera "Machine Learning" Courses profoundly influences the posts - "<https://www.coursera.org/account/accomplishments/certificate/DF4EQLR53HRB>."
 
 
-<a id="org3da35a2"></a>
+<a id="orgfd0bc9b"></a>
 
 ## Introduction
 
 
-<a id="org22f7002"></a>
+<a id="org15aa7df"></a>
 
 ### Artificial Intelligence history
 
 This is AI history
 
 
-<a id="org4927771"></a>
+<a id="org0ee8668"></a>
 
 ### AI human/business value
 
 Is it a business value 
 
 
-<a id="orgc5bfdbf"></a>
+<a id="orgd02badb"></a>
 
 ### AI ethics
 
 
-<a id="orgcd01995"></a>
+<a id="org7be90c8"></a>
 
 ## Computer language applied to machine learning review
 
 
-<a id="org41ae34e"></a>
+<a id="org25a2e10"></a>
 
 ### Python (Pytorch)
 
@@ -97,104 +97,104 @@ x=\sqrt{b}
     plt.show()
 
 
-<a id="org4b740d6"></a>
+<a id="org352188f"></a>
 
 ### Scala
 
 
-<a id="org799dbd6"></a>
+<a id="org3245cc3"></a>
 
 ### Julia
 
 
-<a id="orgc2901f9"></a>
+<a id="orgf4c05c1"></a>
 
 ### Spark
 
 The Spark i a main language to write implementaion in Scala
 
 
-<a id="orge3e4b6b"></a>
+<a id="org7e25ac8"></a>
 
 ## Machine learning methods
 
 
-<a id="orgf63343f"></a>
+<a id="orga611ad4"></a>
 
 ### ML pipeline
 
 
-<a id="org5ce3733"></a>
+<a id="orgb95de8d"></a>
 
 ### ML framework
 
 
-<a id="org9339f37"></a>
+<a id="org761dda0"></a>
 
 ### Exploratory Data Analisis
 
 
-<a id="org805b625"></a>
+<a id="orga90fa14"></a>
 
 ### Data visualization
 
 
-<a id="org7122093"></a>
+<a id="org8e94b93"></a>
 
 ## The mathematics
 
 
-<a id="org2d3435e"></a>
+<a id="org8edb06b"></a>
 
 ### Linear algebra
 
 
-<a id="orgaff5ce1"></a>
+<a id="orgf88d834"></a>
 
 ### Statistics
 
 
-<a id="org81239eb"></a>
+<a id="org917e49e"></a>
 
 ## Algorithms taxonomy
 
 
-<a id="org96eb29e"></a>
+<a id="org104e6bf"></a>
 
 ### Unsupervised learning
 
 
-<a id="org235fb50"></a>
+<a id="org0bd1336"></a>
 
 ### Supervised learning
 
 
-<a id="org2ec89d1"></a>
+<a id="org0293429"></a>
 
 ### Reinforcement learning
 
 
-<a id="org42a6ea9"></a>
+<a id="org807cfb3"></a>
 
 ### Evolutionary algorithms
 
 
-<a id="org490b955"></a>
+<a id="org60d6344"></a>
 
 ## Statistic learning theory
 
 
-<a id="org2b5e69c"></a>
+<a id="orgcc591d7"></a>
 
 ## Deep learning theory
 
 
-<a id="org489c8c1"></a>
+<a id="org2470959"></a>
 
 ## Big Data in a Machine learning context
 
 
-<a id="orge9fd9a2"></a>
+<a id="orgbdcc25d"></a>
 
 ## Algorithms refcards.
 
