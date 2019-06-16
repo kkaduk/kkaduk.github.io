@@ -1,0 +1,129 @@
+% Created 2019-06-16 niedz. 13:22
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.2.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Deep understanding of Machine Learning}
+\label{sec:org3771df2}
+
+It is a multipart post aimed to tidy and strengthen my current knowledge in the field of Machine Learning, particularly Deep Learning. So it is dedicated to my purpose to build compact knowledge for ongoing use. I will emphasize algorithms practical understanding based on simple python code (ready to play) and also the proper application and limitations of the algorithms. 
+I do not write it for a particular audience (as an above explanation) but if someone finds useful for his/her purpose and find any mistake or a better idea to improve algorithm understanding, any comment highly appreciated.
+
+My attendance on Coursera "Machine Learning" Courses profoundly influences the posts - "\url{https://www.coursera.org/account/accomplishments/certificate/DF4EQLR53HRB}."
+
+\subsection{Introduction}
+\label{sec:org8e32d92}
+\subsubsection{Artificial Intelligence history}
+\label{sec:orga6befb1}
+This is AI history
+\subsubsection{AI human/business value}
+\label{sec:orga9dffdd}
+Is it a business value ?
+\subsubsection{AI ethics}
+\label{sec:org305d6b4}
+
+\subsection{Computer language applied to machine learning review}
+\label{sec:orgd69e74d}
+\subsubsection{Python (Pytorch)}
+\label{sec:orgd4b9220}
+
+This is python example 
+
+\begin{verbatim}
+print ("Hello, world!")
+\end{verbatim}
+
+
+\begin{verbatim}
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+plt.savefig('python-matplot-fig.png')
+return 'python-matplot-fig.png' # return filename to org-mode
+\end{verbatim}
+
+\subsubsection{Scala}
+\label{sec:orgd4e8f07}
+\subsubsection{Julia}
+\label{sec:org5d5bbed}
+\subsubsection{Spark}
+\label{sec:org769eacb}
+The Spark i a main language to write implementaion in Scala
+
+\subsection{Machine learning methods}
+\label{sec:org1b99ea6}
+\subsubsection{ML pipeline}
+\label{sec:org9e93b9f}
+\subsubsection{ML framework}
+\label{sec:org6b00fc7}
+\subsubsection{Exploratory Data Analisis}
+\label{sec:org12c8a63}
+\subsubsection{Data visualization}
+\label{sec:orgb9c3ae1}
+
+\subsection{The mathematics}
+\label{sec:orgc8a138b}
+\subsubsection{Linear algebra}
+\label{sec:orged7a6f3}
+\subsubsection{Statistics}
+\label{sec:orge46d34d}
+
+\subsection{Algorithms taxonomy}
+\label{sec:org05a79a6}
+\subsubsection{Unsupervised learning}
+\label{sec:org51a0f9c}
+\subsubsection{Supervised learning}
+\label{sec:orgbcd6e02}
+\subsubsection{Reinforcement learning}
+\label{sec:org6ce370c}
+\subsubsection{Evolutionary algorithms}
+\label{sec:org57990a9}
+
+\subsection{Statistic learning theory}
+\label{sec:org47bc99e}
+
+\subsection{Deep learning theory}
+\label{sec:org8385026}
+
+\subsection{Big Data in a Machine learning context}
+\label{sec:org453f47b}
+
+\subsection{Algorithms refcards.}
+\label{sec:org6245785}
+
+\begin{center}
+\begin{tabular}{ll}
+Algorith name & Link to card\\
+Linear regresion & \href{https://kkaduk.blogspot.com/2019/06/linear-regression-refcard.html}{Linear Regresion}\\
+ & \\
+\end{tabular}
+\end{center}
+\end{document}
