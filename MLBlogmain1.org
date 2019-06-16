@@ -9,13 +9,20 @@ My attendance on Coursera "Machine Learning" Courses profoundly influences the p
 *** Artificial Intelligence history
 This is AI history
 *** AI human/business value
-Is it a business value ?
+Is it a business value 
 *** AI ethics
 
 ** Computer language applied to machine learning review
 *** Python (Pytorch)
 
 This is python example 
+
+#+BEGIN_SRC python :results output
+print('test')
+#+END_SRC
+
+#+RESULTS:
+: test
 
 
 Angles are written as Greek letters \alpha, \beta and \gamma. The mass if
@@ -26,6 +33,23 @@ $a=+\sqrt{2}$ or $a=-\sqrt{2}$.
 \begin{equation}
 x=\sqrt{b}
 \end{equation}
+
+
+#+begin_src python :results output
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+#plt.savefig('python-matplot-fig.png')
+plt.show()
+
+#+end_src
+
+#+RESULTS:
+
 
 *** Scala
 *** Julia
@@ -59,10 +83,5 @@ The Spark i a main language to write implementaion in Scala
 | Algorith name    | Link to card     |
 | Linear regresion | [[https://kkaduk.blogspot.com/2019/06/linear-regression-refcard.html][Linear Regresion]] |
 |                  |                  |
-
-
-
-
-
 
 
